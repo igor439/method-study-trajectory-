@@ -1,7 +1,8 @@
-This project was idealized for a  numerical calculus class.
-And the objective was to calculus and mesury the best trajectory of cleaning robot when it try to find a wall. And then i could just set up based in a set of especif points
-but, it's preferable to made a solution to any coordenate of wall and robot.
 
-Este projeto foi idealizado para uma aula de cálculo mumérico.
-E o objetivo era calcular e medir a melhor trajetória do robô de limpeza ao tentar encontrar uma parede. E então eu poderia apenas configurar com base em um conjunto de pontos específicos
-mas, é preferível resolver qualquer coordenada de parede e robô.
+
+Este projeto exemplifica uma estratégia de cálculo e mensura da trajetória de um robô de limpeza autônomo.
+O sistema deve ser capaz de conduzir o robô ladeando as paredes de um cômodo sem que haja colisões. Considerando uma parede representada por uma reta $L$ no plano euclidiano, dado dois pontos que a definem e o ponto de localização do robô , podemos usando as definições atreladas às características da função afim,classe de função que define uma reta, traçar a trajetória desejada para qualquer conjunto de pontos que definem uma parede $L$ e  a localização do robô.
+ 
+ 
+Porém, é imprescindível para executar esta tarefa que saibamos localização do robô autônomo em relação a $L$. Em outras palavras, se este está abaixo ou acima da reta que descreve a parede. Logo,o que se propõe com o intuito de elucidar esta questão, repousa intimamente nas transformações lineares. Mais especificamente na caracterização do determinante e do produto vetorial. Esta é uma atividade prática de cálculo númerico reescrita de maneira a melhor explicitar o pensamento lógico matemático na resolução deste problema.
+ 
